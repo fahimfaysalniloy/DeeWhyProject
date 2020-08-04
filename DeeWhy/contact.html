@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Contact | Dee Why Fruit Market</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    
+	<link href="https://fonts.googleapis.com/css?family=Dosis:300,400,600,900|Lato:300,400,900&display=swap" rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/00fb7c4cdb.js" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="Css/contactStyle.css">
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <!-- <link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css"> -->
+</head>
+<body>
+    <header>
+        <div class="container">
+        <div class="header-contact">
+            <span class="header-contact__item">
+                <i class="fas fa-phone-alt"></i>
+                <span>(123)-456-789</span>
+            </span>
+            <span class="header-contact__item">
+                <i class="fas fa-phone-alt"></i>
+                <span>(123)-456-789</span>
+            </span>
+            <span class="header-contact__item">
+                <i class="far fa-envelope"></i>
+                <span>Send mail</span>
+            </span>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+        </button>
+        <div class="logo">
+            <img src="images/dee why.png">
+        </div>
+
+        <nav class="nav">
+			<ul class="nav__list">
+				<li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+				<li class="nav__item"><a href="#services" class="nav__link">Special Offers</a></li>
+				<li class="nav__item"><a href="#about" class="nav__link">Friuts & Vegetables</a></li>
+				<li class="nav__item"><a href="#work" class="nav__link">European Items</a></li>
+				<li class="nav__item"><a href="#contact" class="nav__link">Indian-Nepalese Groceries</a></li>
+                <li class="nav__item"><a href="contact.html" class="nav__link active">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Form -->
+    <div class="contact__container">	
+      <form method="post" action="contact.php">
+	      <div class="form-group">
+		      <label>Name</label>
+		      <input type="text" id="NameOfCustomer" name="name" class="form-control">
+	      </div>
+	      <div class="form-group">
+	      	<label>Email</label>
+	      	<input type="text" name="email" class="form-control">
+	      </div>
+	      <div class="form-group">
+	      	<label>Message</label>
+	      	<textarea name="message" class="form-control"></textarea>
+	      </div>
+	      <br>
+	      <button type="submit" id="save" name="submit" class="btn btn-primary">Submit</button>
+      </form>
+	</div>
+
+    <footer class="footer" id="contact">
+        <div class="footer__about">
+            <h3 class="footer-title">About Us</h3>
+            <hr>
+            <p class="footer__about-body"><span>+61 415 085 482</span><span></span></p>
+            <p class="footer__about-body"><span>+61 415 000 001</span></p>
+            <p class="footer__about-body">deewhyfruitmarket@gamil.com</p>
+            <p class="footer__about-body">Shop#4, 27-33 Oaks avanue</p>
+            <p class="footer__about-body">Dee Why, NSW 2099</p>
+        </div>
+        <div class="footer-condition">
+            <div class="footer-condition__terms">
+                <h3 class="footer-title">Terms of use</h3>
+                <hr>
+                <p class="footer__about-body">Terms and condition</p>
+            </div>
+            <div class="footer-condition__follow">
+                <h3 class="footer-title">Follow Us</h3>
+                <hr>
+                <div class="footer__about-body">
+                    <ul class="social-list">
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="social-list__item">
+                            <a class="social-list__link" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2018-2020 &copy; Dee Why Fruit Market. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="Js/feedback.js"></script>
+
+
+</body>
